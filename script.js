@@ -39,3 +39,7 @@ function addNewNote(text = '') {
 
     document.body.appendChild(note);
 };
+
+localStorage.setItem('name', 'Hasan');
+localStorage.getItem('name');
+localStorage.removeItem('name');
